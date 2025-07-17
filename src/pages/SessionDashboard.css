@@ -1,0 +1,72 @@
+/* SessionDashboard.css */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+select, input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin-bottom: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+}
+.session-dashboard {
+  padding: 20px;
+}
+
+.create-session-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.create-session-form button {
+  padding: 10px 20px;
+}
+
+.session-list {
+  list-style: none;
+  padding: 0;
+}
+
+.session-list li {
+  margin-bottom: 10px;
+}

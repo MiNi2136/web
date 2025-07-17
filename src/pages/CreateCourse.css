@@ -1,0 +1,98 @@
+.create-course-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.create-course-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.create-course-container input,
+.create-course-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.create-course-container button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.create-course-container button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+/* CreateCourse.css */
+
+.create-course-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-course-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-course-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-course-container input,
+.create-course-container textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.create-course-container input:focus,
+.create-course-container textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.create-course-container button {
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-course-container button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.create-course-container button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
